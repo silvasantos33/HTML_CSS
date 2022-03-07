@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        nav {
+            background-color: red;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+         }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        
+        nav > a  {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: aquamarine;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: lightgray;
+            }
+
+                footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px; width: 100px; margin: 10px; background-color: white; border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minima suscipit est, ex neque quia. Minima qui natus beatae incidunt distinctio nulla temporibus cupiditate dolorum. Nulla accusamus reprehenderit et ad.lorem</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloremque minus laborum. Consequuntur, obcaecati distinctio, exercitationem laboriosam quasi cupiditate error laborum sed repellat itaque voluptates nobis illo perferendis maiores adipisci.</p> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, commodi debitis. Perferendis ratione, dolores minima quaerat dolor expedita quam exercitationem consequatur nostrum officia quo asperiores totam, ipsa, tenetur facere excepturi!</p>
+                <aside>
+                    <p>Artigo escrito por Tony</p>
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Cursoemvideo</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>
